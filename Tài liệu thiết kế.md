@@ -16,7 +16,7 @@
 |-------------|-----------|-------------|
 | MaGV | nvarchar(10) | NOT NULL |
 | TenGV | nvarchar(50) | NULL |
-### Mô tả:
+#### Mô tả:
 - MaGV: Mã của giảng viên
 - TenGV: Tên của giảng viên
 ### 2) Bảng Học kỳ
@@ -24,7 +24,7 @@
 |-------------|-----------|-------------|
 | MaHK | nvarchar(10) | NOT NULL |
 | TenHK | nvarchar(50)| NULL |
-### Mô tả:
+#### Mô tả:
 - MaHK: Mã của học kỳ
 - TenHK: Tên của học kỳ
 ### 3) Bảng Môn học
@@ -33,7 +33,7 @@
 | MaMH | nvarchar(10) | NOT NULL |
 | TenMH | nvarchar(50) | NULL |
 | MaGV | nvarchar(10) | NOT NULL |
-### Mô tả:
+#### Mô tả:
 - MaMH: Mã của môn học
 - TenMH: Tên của môn học
 - MaGV: Mã của giảng viên phụ trách môn học
@@ -44,7 +44,7 @@
 | TenLop | nvarchar(50) | NULL |
 | MaKhoa | nvarchar(10) | NOT NULL |
 | MaGV | nvarchar(10) | NOT NULL |
-### Mô tả:
+#### Mô tả:
 - MaLop: Mã của lớp
 - TenLop: Tên của lớp
 - MaKhoa: Mã của khoa (Lớp thuộc khoa nào thì chọn mã khoa đó)
@@ -52,8 +52,30 @@
 ### 5) Bảng Khoa
 | Column Name | Data Type | Allows NULL |
 |-------------|-----------|-------------|
-### Mô tả:
+| MaKhoa | nvarchar(10) | NULL |
+| TenKhoa | nvarchar(50) | NOT NULL |
+#### Mô tả:
+- MaKhoa: Mã của khoa
+- TenKhoa: Tên của khoa
 ### 6) Bảng Điểm
 | Column Name | Data Type | Allows NULL |
 |-------------|-----------|-------------|
-### Mô tả:
+| MaSV | nvarchar(10) | NOT NULL |
+| MaMH | nvarchar(10) | NOT NULL |
+| DiemCC | int | NULL |
+| DiemKT | float | NULL |
+| DiemGK | float | NULL |
+| DiemThi | float | NULL |
+| DiemTB | float | NULL |
+| MaGV | nvarchar(10) | NOT NULL |
+| MaHK | nvarchar(10) | NOT NULL |
+#### Mô tả:
+- MaSV: Mã sinh viên cần nhập điểm
+- MaMH: Mã môn học cần nhập điểm
+- DiemCC: Điểm chuyên cần của sinh viên
+- DiemKT: Điểm kiểm tra thường xuyên của sinh viên
+- DiemGK: Điểm kiểm tra giữa kì của sinh viên
+- DiemThi: Điểm thi cuối kì của sinh viên
+- DiemTB: Điểm trung bình của sinh viên
+- MaGV: Mã của giảng viên phụ trách môn học cần nhập điểm
+- MaHK: Mã của học kỳ đang học
