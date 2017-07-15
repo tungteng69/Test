@@ -28,15 +28,35 @@
     <li>Các thông tin bạn vừa xử lý sẽ được hiển thị tại bảng DataGridView bên cạnh.</li>
   </ul>
 ### 4) Quản lý điểm thi
-* Chức năng:
+* Chức năng: Quản lý các điểm của sinh viên gồm Điểm chuyên cần, Điểm kiểm tra (15'), Điểm Giữa kỳ, Điểm thi (cuối kỳ) và Điểm trung bình sẽ được tự động tính khi nhập vào các điểm kia.
 * Hướng dẫn:
+  <ul>
+    <li>Chọn các thông tin Học kỳ, Tên sinh viên, Tên môn học, Giảng viên và nhập các điểm vào ô tương ứng</li>
+    <li>Click lựa chọn các nút chức năng muốn thực hiện.</li>
+    <li>Các thông tin bạn vừa xử lý sẽ được hiển thị tại bảng DataGridView bên cạnh.</li>
+  </ul>
 ### 5) Quản lý Khoa
-* Chức năng:
+* Chức năng: Quản lý thông tin các Khoa hoặc Lớp trong trường học, bạn có thể Thêm/Sửa/Xóa thông tin các Khoa hoặc Lớp.
 * Hướng dẫn:
+  <ul>
+    <li>Nhập các thông tin Mã Khoa/Lớp, Tên Khoa/Lớp ở các ô tương ứng</li>
+    <li>Click lựa chọn các nút chức năng muốn thực hiện.</li>
+    <li>Các thông tin bạn vừa xử lý sẽ được hiển thị tại bảng DataGridView bên cạnh.</li>
+  </ul>
 ### 6) Tìm kiếm
-* Chức năng:
+* Chức năng: Tìm kiếm thông tin sinh viên, bạn có thể tìm bằng Mã sinh viên hoặc Tên sinh viên.
 * Hướng dẫn:
+  <ul>
+    <li>Nhập các thông tin Mã sinh viên/Tên sinh viên muốn tìm vào ô tương ứng</li>
+    <li>Các thông tin tìm kiếm được sẽ hiển thị tại bảng DataGridView bên dưới.</li>
+  </ul>
+* Lưu ý: Bạn có thể nhập tên/mã gần đúng các sinh viên
 ### 7) Báo cáo
-* Chức năng:
-* Hướng dẫn:
+* Chức năng: Đưa ra các bản in về Danh sách các sinh viên trong 1 lớp/khoa, in điểm các sinh viên theo 1 lớp.
+* Hướng dẫn: 
+  <ul>
+    <li>Nhập các thông tin Mã Lớp/Khoa ở các ô tương ứng</li>
+    <li>Click lựa chọn các nút chức năng muốn thực hiện.</li>
+    <li>Các thông tin bạn vừa xử lý sẽ được hiển thị trước để bạn có thể xem qua trước khi in</li>
+  </ul>
 
