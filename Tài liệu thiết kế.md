@@ -7,7 +7,11 @@
 ## Sơ đồ phân rã chức năng (BFD)
 ![screenshot 21](https://user-images.githubusercontent.com/27407242/28238962-187324aa-698a-11e7-8274-a469020e8b07.png)
 ## Sơ đồ luồng dữ liệu (DFD)
-
+![screenshot 22](https://user-images.githubusercontent.com/27407242/28239243-c5798dea-6991-11e7-803e-c6e6dc0fb12e.png)
 ## Sơ đồ thực thể - quan hệ (ERD)
-
+![erd](https://user-images.githubusercontent.com/27407242/28239269-762657ae-6992-11e7-8aa9-883bbc7041d1.JPG)
 ## Thiết kế và mô tả mô hình dữ liệu vật lý
+| Column Name | Data Type | Allows NULL |
+|-------------|-----------|-------------|
+| Mã giảng viên | nvarchar(10) | NOT NULL |
+| Tên giảng viên | nvarchar(10) | NULL |
