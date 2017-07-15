@@ -5,8 +5,8 @@
 ### 1) Giao diện chính
 #### Khi bạn mở phần mềm sẽ đi tới giao diện chính của chương trình
 ![promain](https://user-images.githubusercontent.com/27407242/28236322-93654f9a-694d-11e7-8fec-37c9de4a5cd3.JPG)
-* Chức năng: Chứa các menu chức năng. 
-* Hướng dẫn: Click lựa chọn các chức năng để thực hiện.
+- Chức năng: Chứa các menu chức năng. 
+- Hướng dẫn: Click lựa chọn các chức năng để thực hiện.
 ### Sau đây là các chức năng của chương trình
 ### 2) Quản lý môn học
 ![form mon h c](https://user-images.githubusercontent.com/27407242/28236404-e0fbda9c-694f-11e7-8c3b-f3d8def3b128.JPG)
@@ -33,8 +33,4 @@
 ### 7) Báo cáo
 * Chức năng:
 * Hướng dẫn:
-<ul>
-<li></li>
-<li></li>
-<li></li>
-</ul>
+
