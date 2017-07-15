@@ -13,5 +13,8 @@
 ## Thiết kế và mô tả mô hình dữ liệu vật lý
 | Column Name | Data Type | Allows NULL |
 |-------------|-----------|-------------|
-| Mã giảng viên | nvarchar(10) | NOT NULL |
-| Tên giảng viên | nvarchar(10) | NULL |
+| MaGV | nvarchar(10) | NOT NULL |
+| TenGV | nvarchar(10) | NULL |
+- MaGV: Mã của giảng viên
+- TenGV: Tên của giảng viên
+
