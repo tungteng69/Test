@@ -57,7 +57,7 @@
   </ul>
 * Lưu ý: Bạn có thể nhập tên/mã gần đúng các sinh viên
 ## 7) Báo cáo
-
+![bc_diem](https://user-images.githubusercontent.com/27407242/28237121-f598d362-6961-11e7-9a9d-81b59dcc491a.JPG)
 * Chức năng: Đưa ra các bản in về Danh sách các sinh viên trong 1 lớp/khoa, in điểm các sinh viên theo 1 lớp.
 * Hướng dẫn: 
   <ul>
