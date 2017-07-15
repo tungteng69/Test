@@ -11,10 +11,49 @@
 ## Sơ đồ thực thể - quan hệ (ERD)
 ![erd](https://user-images.githubusercontent.com/27407242/28239269-762657ae-6992-11e7-8aa9-883bbc7041d1.JPG)
 ## Thiết kế và mô tả mô hình dữ liệu vật lý
+### 1) Bảng Giảng viên
 | Column Name | Data Type | Allows NULL |
 |-------------|-----------|-------------|
 | MaGV | nvarchar(10) | NOT NULL |
-| TenGV | nvarchar(10) | NULL |
+| TenGV | nvarchar(50) | NULL |
+### Mô tả:
 - MaGV: Mã của giảng viên
 - TenGV: Tên của giảng viên
-
+### 2) Bảng Học kỳ
+| Column Name | Data Type | Allows NULL |
+|-------------|-----------|-------------|
+| MaHK | nvarchar(10) | NOT NULL |
+| TenHK | nvarchar(50)| NULL |
+### Mô tả:
+- MaHK: Mã của học kỳ
+- TenHK: Tên của học kỳ
+### 3) Bảng Môn học
+| Column Name | Data Type | Allows NULL |
+|-------------|-----------|-------------|
+| MaMH | nvarchar(10) | NOT NULL |
+| TenMH | nvarchar(50) | NULL |
+| MaGV | nvarchar(10) | NOT NULL |
+### Mô tả:
+- MaMH: Mã của môn học
+- TenMH: Tên của môn học
+- MaGV: Mã của giảng viên phụ trách môn học
+### 4) Bảng Lớp
+| Column Name | Data Type | Allows NULL |
+|-------------|-----------|-------------|
+| MaLop | nvarchar(10) | NOT NULL |
+| TenLop | nvarchar(50) | NULL |
+| MaKhoa | nvarchar(10) | NOT NULL |
+| MaGV | nvarchar(10) | NOT NULL |
+### Mô tả:
+- MaLop: Mã của lớp
+- TenLop: Tên của lớp
+- MaKhoa: Mã của khoa (Lớp thuộc khoa nào thì chọn mã khoa đó)
+- MaGV: Mã của giảng viên phụ trách lớp
+### 5) Bảng Khoa
+| Column Name | Data Type | Allows NULL |
+|-------------|-----------|-------------|
+### Mô tả:
+### 6) Bảng Điểm
+| Column Name | Data Type | Allows NULL |
+|-------------|-----------|-------------|
+### Mô tả:
