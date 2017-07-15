@@ -3,8 +3,8 @@
 Đây là hướng dẫn sử dụng phần mềm cho người dùng
 
 ### 1) Giao diện chính
-![promain](https://user-images.githubusercontent.com/27407242/28236322-93654f9a-694d-11e7-8fec-37c9de4a5cd3.JPG)
 #### Khi bạn mở phần mềm sẽ đi tới giao diện chính của chương trình
+![promain](https://user-images.githubusercontent.com/27407242/28236322-93654f9a-694d-11e7-8fec-37c9de4a5cd3.JPG)
 * Chức năng: Chứa các menu chức năng. 
 * Hướng dẫn: Click lựa chọn các chức năng để thực hiện.
 ### Sau đây là các chức năng của chương trình
