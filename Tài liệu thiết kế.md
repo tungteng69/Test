@@ -5,7 +5,7 @@
 - Hệ thống thực hiện các chức năng **Quản lý sinh viên**, **Quản lý điểm**, **Quản lý môn học**, **Quản lý Khoa/Lớp**, **Tìm kiếm** và **Báo cáo - Thống kê**.
 - Tất cả những thay đổi tác động qua từng chức năng đều ảnh hưởng đến **Cơ sở dữ liệu**.
 ## Sơ đồ phân rã chức năng (BFD)
-
+![screenshot 21](https://user-images.githubusercontent.com/27407242/28238962-187324aa-698a-11e7-8274-a469020e8b07.png)
 ## Sơ đồ luồng dữ liệu (DFD)
 
 ## Sơ đồ thực thể - quan hệ (ERD)
