@@ -11,4 +11,19 @@
 ### 2) Quản lý môn học
 ![form mon h c](https://user-images.githubusercontent.com/27407242/28236404-e0fbda9c-694f-11e7-8c3b-f3d8def3b128.JPG)
 * Chức năng: Quản lý các môn học trong quá trình học tập, bạn có thể Thêm/Sửa/Xóa thông tin các môn học.
-* Hướng dẫn: Nhập các thông tin cần xử lý vào các ô tương ứng, sau đó click lựa chọn các nút chức năng tương ứng.
+* Hướng dẫn: Nhập các thông tin cần xử lý vào các ô tương ứng, sau đó click lựa chọn các nút chức năng tương ứng và các thông tin bạn vừa xử lý sẽ được hiển thị tại bảng DataGridView.
+### 3) Quản lý sinh viên
+* Chức năng:
+* Hướng dẫn:
+### 4) Quản lý điểm thi
+* Chức năng:
+* Hướng dẫn:
+### 5) Quản lý Khoa
+* Chức năng:
+* Hướng dẫn:
+### 6) Tìm kiếm
+* Chức năng:
+* Hướng dẫn:
+### 7) Báo cáo
+* Chức năng:
+* Hướng dẫn:
